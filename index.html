@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="left">
+        <div class="logo">Ian's</div>
+        <img class="bg-img" src="images/bg-img.jpg" alt="Statue on Yellow Background">
+    </div>
+    <div class="right">
+        <header>
+            <h1>Where dreams start</h1>
+            <h2>Sign up now and get ready to live the best life you've ever had!</h2>
+        </header>
+        <form action="">
+            <fieldset>
+                <legend>Sign Up</legend>
+
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" required>
+
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" required>
+                
+                <label for="userEmail">Email</label>
+                <input type="email" name="userEmail" id="userEmail" required>
+
+                <label for="phoneNum">Phone Number</label>
+                <input type="tel" name="phoneNum" id="phoneNum" required>
+
+                <label for="userPass">Password</label>
+                <input type="password" name="password" id="userPass" required>
+
+                <label for="confPass">Confirm Password</label>
+                <input type="password" name="confPass" id="confPass" required>
+
+                <button type="submit">Create Account</button>
+                <div class="login">Already have an account?<span class="login-link">Log in.</span></div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
