@@ -15,38 +15,50 @@
 </head>
 <body>
     <div class="left">
-        <div class="logo">Ian's</div>
+        <div class="logo"><span class="logo-text">Ian's</span></div>
         <img class="bg-img" src="images/bg-img.jpg" alt="Statue on Yellow Background">
     </div>
     <div class="right">
         <header>
-            <h1>Where dreams start</h1>
+            <h1>"Where dreams start."</h1>
             <h2>Sign up now and get ready to live the best life you've ever had!</h2>
         </header>
         <form action="">
             <fieldset>
                 <legend>Sign Up</legend>
 
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" id="firstName" required>
+                <div class="first-name">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required>
+                </div>
 
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="lastName" required>
+                <div class="last-name">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" required>
+                </div>
                 
-                <label for="userEmail">Email</label>
-                <input type="email" name="userEmail" id="userEmail" required>
+                <div class="user-email">
+                    <label for="userEmail">Email</label>
+                    <input type="email" name="userEmail" id="userEmail" required>
+                </div>
 
-                <label for="phoneNum">Phone Number</label>
-                <input type="tel" name="phoneNum" id="phoneNum" required>
+                <div class="tel-num">
+                    <label for="phoneNum">Phone Number</label>
+                    <input type="tel" name="phoneNum" id="phoneNum" required>
+                </div>
 
-                <label for="userPass">Password</label>
-                <input type="password" name="password" id="userPass" required>
+                <div class="user-pass">
+                    <label for="userPass">Password</label>
+                    <input type="password" name="password" id="userPass" required>
+                </div>
 
-                <label for="confPass">Confirm Password</label>
-                <input type="password" name="confPass" id="confPass" required>
+                <div class="conf-pass">
+                    <label for="confPass">Confirm Password</label>
+                    <input type="password" name="confPass" id="confPass" required>
+                </div>
 
                 <button type="submit">Create Account</button>
-                <div class="login">Already have an account?<span class="login-link">Log in.</span></div>
+                <div class="login">Already have an account? <a href="" class="login-link">Log in.</a></span></div>
             </fieldset>
         </form>
     </div>
